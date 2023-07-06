@@ -15,7 +15,7 @@ D:/Unity/RPG-Game/RPGGame
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49501
+60564
 Successfully changed project path to: D:/Unity/RPG-Game/RPGGame
 D:/Unity/RPG-Game/RPGGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Unity/RPG-Game/RPGGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24280] Host "[IP] 192.168.28.1 [Port] 0 [Flags] 2 [Guid] 3766410762 [EditorId] 3766410762 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C2K7U42) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15464] Host "[IP] 192.168.28.1 [Port] 0 [Flags] 2 [Guid] 2629645430 [EditorId] 2629645430 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C2K7U42) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24280] Host "[IP] 192.168.28.1 [Port] 0 [Flags] 2 [Guid] 3766410762 [EditorId] 3766410762 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C2K7U42) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15464] Host "[IP] 192.168.28.1 [Port] 0 [Flags] 2 [Guid] 2629645430 [EditorId] 2629645430 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C2K7U42) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 180.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 127.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -69,52 +69,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.049047 seconds.
+Registered in 0.016103 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 592 ms
+Android Extension - Scanning For ADB Devices 412 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 181.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 118.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.850 seconds
+- Completed reload, in  1.995 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2850ms)
-		BeginReloadAssembly (297ms)
+	ReloadAssembly (1996ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (2058ms)
-			LoadAssemblies (294ms)
+		EndReloadAssembly (1674ms)
+			LoadAssemblies (143ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (429ms)
+			SetupTypeCache (499ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (1332ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (889ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (857ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (181ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
+				InitializePlatformSupportModulesInManaged (609ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003298 seconds.
+Registered in 0.003198 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\RPG-Game\RPGGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\RPG-Game\RPGGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -122,48 +122,48 @@ Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.858 seconds
+- Completed reload, in  2.090 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1859ms)
-		BeginReloadAssembly (183ms)
+	ReloadAssembly (2092ms)
+		BeginReloadAssembly (151ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (1437ms)
-			LoadAssemblies (176ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1796ms)
+			LoadAssemblies (151ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (507ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (584ms)
+			SetupTypeCache (501ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (901ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
+				InitializePlatformSupportModulesInManaged (62ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
+				RefreshPlugins (3ms)
 				BeforeProcessingInitializeOnLoad (151ms)
-				ProcessInitializeOnLoadAttributes (365ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (633ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
 Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3461 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (204.9 KB). Loaded Objects now: 3948.
-Memory consumption went from 142.1 MB to 141.9 MB.
-Total: 3.545400 ms (FindLiveObjects: 0.334500 ms CreateObjectMapping: 0.261400 ms MarkObjects: 2.750900 ms  DeleteObjects: 0.197400 ms)
+Unloading 26 unused Assets / (197.1 KB). Loaded Objects now: 3955.
+Memory consumption went from 143.0 MB to 142.8 MB.
+Total: 9.564200 ms (FindLiveObjects: 0.621300 ms CreateObjectMapping: 1.424000 ms MarkObjects: 7.121600 ms  DeleteObjects: 0.395200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -177,586 +177,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1943802.579143 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Hover.png
-  artifactKey: Guid(d4f4647229a9f47a3b8739dad2c59db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Hover.png using Guid(d4f4647229a9f47a3b8739dad2c59db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734ad1ade47e23fbe2c205b086e77530') in 0.102267 seconds 
+  Time since last request: 1957968.327014 seconds.
+  path: Assets/TerrainTextures/WaterTexture.mat
+  artifactKey: Guid(7aabbe88e094aa74997e3bb74bf209b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainTextures/WaterTexture.mat using Guid(7aabbe88e094aa74997e3bb74bf209b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69327a720cddd2360d49d17852fe94d9') in 0.275345 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/!Items/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Birch_leaves.tga
-  artifactKey: Guid(ee8680ca49b912746958dd16c5d23051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Birch_leaves.tga using Guid(ee8680ca49b912746958dd16c5d23051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d22e5a9f75a30c03150807807fc7525') in 0.024432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd
-  artifactKey: Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd using Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b27405e77bb06655eeaf899b1ed8ff7') in 0.034474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Packages/com.unity.progrids/GUI/About/Banner_Hover.png
-  artifactKey: Guid(486dab38d60e39c4bba48408a15fd1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.progrids/GUI/About/Banner_Hover.png using Guid(486dab38d60e39c4bba48408a15fd1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ebd6fb2ab5a7bb5cfde6388278c3f7') in 0.018318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd
-  artifactKey: Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd using Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9947d2574613f6db27a726d63e8d29') in 0.012015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/on/Arch.png
-  artifactKey: Guid(59174e0e17d65334da602fa20193c69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/on/Arch.png using Guid(59174e0e17d65334da602fa20193c69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fa1fea78d42ae8499336eb6b99ae72') in 0.010940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch@2x_Light.png
-  artifactKey: Guid(883681e440ab51b4eb2f55fdc864b1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch@2x_Light.png using Guid(883681e440ab51b4eb2f55fdc864b1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f66b888dc9038be115493f767556c72') in 0.016785 seconds 
+  Time since last request: 20.158940 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Button_Pressed_Horizontal.png
+  artifactKey: Guid(812226b3d99374891a555960dac7ef49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Button_Pressed_Horizontal.png using Guid(812226b3d99374891a555960dac7ef49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e24579d4e7c6d74338be28bc6d8fc7c') in 0.057487 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Props/Textures/Atlas_Props_01_Emission.psd
-  artifactKey: Guid(f72c851730284549a28937da858ba501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Textures/Atlas_Props_01_Emission.psd using Guid(f72c851730284549a28937da858ba501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3a654a1506329e28beff93ec68718b') in 0.018866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Props/Textures/Atlas_Props_02_Normal.psd
-  artifactKey: Guid(031998b9a91d4ceb9ef8aa85d4a1e4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Textures/Atlas_Props_02_Normal.psd using Guid(031998b9a91d4ceb9ef8aa85d4a1e4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a417265182ad9ae5a1136913cd4a7f') in 0.097874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/!Items/Dinner table/Textures/broccoli.tif
-  artifactKey: Guid(d58bdff77897d9a449d5e123f776e547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Dinner table/Textures/broccoli.tif using Guid(d58bdff77897d9a449d5e123f776e547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70dcc9c35c5410b26885dfc476b3c829') in 0.030731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom_Light.psd
-  artifactKey: Guid(585b70cb75dd43efbfead809c30a1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom_Light.psd using Guid(585b70cb75dd43efbfead809c30a1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b2cb2e32ac7e6d496f576ab69e9f11') in 0.015851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Props/Textures/Atlas_Furniture_01.psd
-  artifactKey: Guid(6bb141450ca141dda58e257cb9ed61df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Textures/Atlas_Furniture_01.psd using Guid(6bb141450ca141dda58e257cb9ed61df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675aa59d1fad1ccff1fe82aace946997') in 0.186988 seconds 
+  path: Assets/!Items/Stylized Environnement - Free Pack/Textures/Crystal/crystal_01_LP_PolySphere1.001_AlbedoTransparency.png
+  artifactKey: Guid(884eca3e21f1e440895002e5056b430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Items/Stylized Environnement - Free Pack/Textures/Crystal/crystal_01_LP_PolySphere1.001_AlbedoTransparency.png using Guid(884eca3e21f1e440895002e5056b430b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9082da0e45d303e4debd8245bf2686d1') in 0.016870 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000056 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/on/Arch@2x.png
-  artifactKey: Guid(83a22ff5d6dac6a42bee117814bdd982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/on/Arch@2x.png using Guid(83a22ff5d6dac6a42bee117814bdd982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060ad3f0e03047c08cd6217cc309a729') in 0.018169 seconds 
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshe.png
+  artifactKey: Guid(a04ecc9d5e12d5d449077414eb86635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshe.png using Guid(a04ecc9d5e12d5d449077414eb86635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12b43a78fd2e989e8f456dbe3182747') in 0.044463 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch.png
-  artifactKey: Guid(daaddaa51d20cb14a971727d2576c391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch.png using Guid(daaddaa51d20cb14a971727d2576c391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e956919a1e07353f1f872449c1478da') in 0.014400 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/!Items/Dinner table/Textures/Candles.tif
+  artifactKey: Guid(ea68dea325e6b3141ab2ec4c537141cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Items/Dinner table/Textures/Candles.tif using Guid(ea68dea325e6b3141ab2ec4c537141cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39c8c41b17a4fddac1efdf48f575745') in 0.017400 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Bezier_Free.png
-  artifactKey: Guid(da4df1da6f6124e98950375683b8fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Bezier_Free.png using Guid(da4df1da6f6124e98950375683b8fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89d44a95fd0d7991c47aca544adb1df') in 0.017165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Bezier_Mirrored.png
-  artifactKey: Guid(ef7e9b1becafe43e08ebc38b881ce60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Bezier_Mirrored.png using Guid(ef7e9b1becafe43e08ebc38b881ce60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c5fe1062df798e36c5961dbd7a4f1e') in 0.046499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.706117 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle_Light.psd
-  artifactKey: Guid(066619c9c9c84f89acb1b48c11a7efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle_Light.psd using Guid(066619c9c9c84f89acb1b48c11a7efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0841bd024b50a0b9917d8b8554cda37d') in 0.016810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/UVEditor/camera-64x64.png
-  artifactKey: Guid(90f8fdd975ce6b74f9ff13d9672b45eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/UVEditor/camera-64x64.png using Guid(90f8fdd975ce6b74f9ff13d9672b45eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cbc946c08ab066b664371071076502') in 0.132064 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidline_Light.psd
-  artifactKey: Guid(bb42b2d967d6427983c901a4ffc8ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidline_Light.psd using Guid(bb42b2d967d6427983c901a4ffc8ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8af3342528ca5953838ecca1266bb3') in 0.038692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/!Items/Dinner table/Textures/Chair_normal.tif
-  artifactKey: Guid(4b04facb33f2eb646a0c25539a842d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Dinner table/Textures/Chair_normal.tif using Guid(4b04facb33f2eb646a0c25539a842d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b89ded31e0313f1da3eb7dd3a3f3b2') in 0.023065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Button_Normal.png
-  artifactKey: Guid(5c266eda6963f4b088cb4e69c9892a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Button_Normal.png using Guid(5c266eda6963f4b088cb4e69c9892a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b17bc4e23b07ce86b4a3aba724df6d3') in 0.014554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshechristmas.png
-  artifactKey: Guid(ec03f79379868c642b48ae5ddc821b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshechristmas.png using Guid(ec03f79379868c642b48ae5ddc821b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5073ae026df79d18cf7e3a06c10eac') in 0.077008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Circle-22px_Normal_Light.png
-  artifactKey: Guid(6abea02926aae664b81d90bcfae924c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Circle-22px_Normal_Light.png using Guid(6abea02926aae664b81d90bcfae924c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ab6a352d53ac12e8fd9fec71fe1dc9') in 0.013745 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/UVEditor/camera-64x64_Light.png
-  artifactKey: Guid(33945f703736c47498502b3fdb360955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/UVEditor/camera-64x64_Light.png using Guid(33945f703736c47498502b3fdb360955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4ed35b388ce3ca77f1f01316355779') in 0.015861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhochristmas.png
-  artifactKey: Guid(fd098fb4cf57bad419701c802e442b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhochristmas.png using Guid(fd098fb4cf57bad419701c802e442b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd9d81108104d6384471a7186e1d0b0') in 0.029528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Button_Normal_Horizontal.png
-  artifactKey: Guid(2784dca559ce34a9a8e44028c547a3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Button_Normal_Horizontal.png using Guid(2784dca559ce34a9a8e44028c547a3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384c62bf83a9a598254987d145b0b92a') in 0.030910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/!Items/A_piece_of_nature/Textures/Chest_normal.tif
-  artifactKey: Guid(0703bdf9f8e54ae4f9cd6551d2e05a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/A_piece_of_nature/Textures/Chest_normal.tif using Guid(0703bdf9f8e54ae4f9cd6551d2e05a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bd5a3cb7bf4e3f5d0e9844d299c0b6') in 0.049372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/!Items/Stylized Environnement - Free Pack/Textures/Crystal/crystal_01_LP_PolySphere1.001_Normal.png
-  artifactKey: Guid(c63f567f1fb124bd786c32c63a82b3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Stylized Environnement - Free Pack/Textures/Crystal/crystal_01_LP_PolySphere1.001_Normal.png using Guid(c63f567f1fb124bd786c32c63a82b3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f82d2b18589350b4b34f42aadb81503') in 0.017417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9470.014310 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter.psd
-  artifactKey: Guid(81ed8c76d2bc4a4c95d092c98af4e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter.psd using Guid(81ed8c76d2bc4a4c95d092c98af4e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15f9716fa3472366bbaa21224ae8421') in 0.172998 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Circle-22px_Hover_Light.png
-  artifactKey: Guid(48bd4736bda1fc14cb837d4b7c55c89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Circle-22px_Hover_Light.png using Guid(48bd4736bda1fc14cb837d4b7c55c89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958bdb6a5f535b98345936c982176420') in 0.018717 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuho.png
+  artifactKey: Guid(3a0c527d7f890d64a9b56b086e6e766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuho.png using Guid(3a0c527d7f890d64a9b56b086e6e766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e528f9ca4f00ab3c99297eff0a8d3b1d') in 0.018508 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000040 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd
-  artifactKey: Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd using Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471994040b44f4c7679880b5c2ec5ec5') in 0.010398 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Capsule@2x_Light.png
-  artifactKey: Guid(f61b79a28586a4e4a8e9ecf76632a32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Capsule@2x_Light.png using Guid(f61b79a28586a4e4a8e9ecf76632a32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270d48e63fadd863388b02d899f7d62a') in 0.016972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified.psd
-  artifactKey: Guid(92027f7f8cfc4feaa477da0dc38d3d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified.psd using Guid(92027f7f8cfc4feaa477da0dc38d3d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c784b9665d09332a15c72f0ceb3d3f36') in 0.024061 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Capsule_Light.png
-  artifactKey: Guid(8751686afdf688e4d80b989236c74d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Capsule_Light.png using Guid(8751686afdf688e4d80b989236c74d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c511d1bff26039c7c9e0ac1826dca757') in 0.011651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd
-  artifactKey: Guid(c76700ea0062413d9f69409b4e9e151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd using Guid(c76700ea0062413d9f69409b4e9e151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41456bfb4d1bf60d176546f2975f3aa4') in 0.018400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop_Light.psd
-  artifactKey: Guid(ed041e68439749a69d0efa0e3d896c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop_Light.psd using Guid(ed041e68439749a69d0efa0e3d896c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cac7f86f7ebef5cd718bfc1a192efd') in 0.024747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd
-  artifactKey: Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd using Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60362a66555b4bb46c55ec1757399770') in 0.010366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight.psd
-  artifactKey: Guid(342a0f8aca7f4f0691338912faec0494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight.psd using Guid(342a0f8aca7f4f0691338912faec0494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e212eee6bb8caffc9bf1e059193e78') in 0.014682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconemptygravatar@2x.png
-  artifactKey: Guid(0ac55f9f886d827408c102bdf33c5ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconemptygravatar@2x.png using Guid(0ac55f9f886d827408c102bdf33c5ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a0da4926f384ef777ef99f6d4f4a45') in 0.047592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Height.png
-  artifactKey: Guid(1acd72c6baa7f814094ccf3696cab74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_A_Height.png using Guid(1acd72c6baa7f814094ccf3696cab74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07961d88340a611c88788c83966c7e3') in 0.064433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Normal.png
-  artifactKey: Guid(8b6ec8cd3adbc7a45a52309309dff911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Normal.png using Guid(8b6ec8cd3adbc7a45a52309309dff911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd2dce41c06baf4cb3995b9786c3497') in 0.057226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_Basecolor.png
-  artifactKey: Guid(1d2634ee9f36b834980539d2a726ef75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_Basecolor.png using Guid(1d2634ee9f36b834980539d2a726ef75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd73dabb6efd4794a7eba0c829dff12') in 0.024683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_Normal.png
-  artifactKey: Guid(0f84519bcde78484388818cad0da1439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_Normal.png using Guid(0f84519bcde78484388818cad0da1439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e944106d32ddf708efba199f78c73552') in 0.021559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Base_Height.png
-  artifactKey: Guid(d991ba51443f1ce4880788849e30dc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Base_Height.png using Guid(d991ba51443f1ce4880788849e30dc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b81e936b51a1f88ff12fe9da15be518') in 0.018065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Basecolor_A.png
-  artifactKey: Guid(819311b7a66a8f740b104cf9f9ffadf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Basecolor_A.png using Guid(819311b7a66a8f740b104cf9f9ffadf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c143f0d514ac67638eb35a27c1d6bfe4') in 0.019239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Base_AO.png
-  artifactKey: Guid(c8ece64026143ba438c6460b685c1784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Base_AO.png using Guid(c8ece64026143ba438c6460b685c1784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21073a34a2315433c9213dc436b90c3f') in 0.018476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Height.png
-  artifactKey: Guid(37c1e9a27bd81b34394f21e47a60898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Base_Height.png using Guid(37c1e9a27bd81b34394f21e47a60898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8328e40884c8380dc50cde6d92a4691') in 0.020710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd
-  artifactKey: Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd using Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3693fbc65537a685384f3d5acaebf159') in 0.014797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Base_Basecolor_B.png
-  artifactKey: Guid(43a6f2a6855649a458bf3ff1c9643cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Base_Basecolor_B.png using Guid(43a6f2a6855649a458bf3ff1c9643cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b380492279fd7c42dcf987c256fb558c') in 0.019740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_Metallic.png
-  artifactKey: Guid(f08728fc48f69d043ade98c5d8bd7de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Textures/Grass_Dense_Tint_01_Leaves_B_Metallic.png using Guid(f08728fc48f69d043ade98c5d8bd7de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ff7803eb63fa6fd38ac214add5b391') in 0.025737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/!Items/A_piece_of_nature/Textures/Gradient.png
-  artifactKey: Guid(1dc814cb85d4a0841aee0ef93bc8051d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/A_piece_of_nature/Textures/Gradient.png using Guid(1dc814cb85d4a0841aee0ef93bc8051d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be87938b9af9cd9ead715c4fb1fe626b') in 0.017229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Base_Basecolor_A.png
-  artifactKey: Guid(2f9b52419a7aab04aa2a67b1d5433369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Base_Basecolor_A.png using Guid(2f9b52419a7aab04aa2a67b1d5433369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b9c003fc5f1a1a86085e564a7af722') in 0.020325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Base_Basecolor_C.png
-  artifactKey: Guid(fddb796191afb2947993970b4084592b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Base_Basecolor_C.png using Guid(fddb796191afb2947993970b4084592b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49bbd8ec5371105ec09c0ce44d41dd7') in 0.018874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigningoogle.png
-  artifactKey: Guid(f09eae8c0ea04254b90c5386a034a225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigningoogle.png using Guid(f09eae8c0ea04254b90c5386a034a225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe75d00268b86104eee5dfe9a9d28f3b') in 0.015340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.344344 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Leaves_A_Height.png
-  artifactKey: Guid(ddabfb676c2439e46b7d0908befa50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Leaves_A_Height.png using Guid(ddabfb676c2439e46b7d0908befa50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3cb07062d9b02ac41b77ddc8726467') in 0.018911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Leaves_A_Normal.png
-  artifactKey: Guid(9ae13c909d9484e4eb0aa286d6774fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Leaves_A_Normal.png using Guid(9ae13c909d9484e4eb0aa286d6774fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831e032c63db558667a381bb12de3f00') in 0.034136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.255797 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Leaves_B_Basecolor.png
-  artifactKey: Guid(aae5d0c409b2960409c4797c4932938b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Leaves_B_Basecolor.png using Guid(aae5d0c409b2960409c4797c4932938b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b7cebcc47e037709d459fcbd277727') in 0.031535 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Leaves_B_Metallic.png
-  artifactKey: Guid(3eda16ad9eab1d94ea43e180d519be5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Leaves_B_Metallic.png using Guid(3eda16ad9eab1d94ea43e180d519be5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0b303c8518ea7f03083182b7bba215') in 0.030231 seconds 
+  path: Packages/com.unity.testtools.codecoverage/Editor/Icons/CodeCoverage@2x.png
+  artifactKey: Guid(37164f8d49df70f448b593fa86e488f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/Editor/Icons/CodeCoverage@2x.png using Guid(37164f8d49df70f448b593fa86e488f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3fed71f625012206dfdb3f8371ab5c') in 0.012819 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Leaves_B_Height.png
-  artifactKey: Guid(7f08d8b457f190e44ab8f5fa4687ec18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_02/Textures/Grass_Dense_Tint_02_Leaves_B_Height.png using Guid(7f08d8b457f190e44ab8f5fa4687ec18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8a3aa8cf4e210fb76460855157b4b5') in 0.076765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 618.792017 seconds.
-  path: Assets/TerrainTextures/Water_Normal.png
-  artifactKey: Guid(90bbad11c122106489d22dced6ab18e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainTextures/Water_Normal.png using Guid(90bbad11c122106489d22dced6ab18e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5397dd7e8cffc875736016bac0ddc09') in 0.076561 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005206 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\RPG-Game\RPGGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\RPG-Game\RPGGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.107 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2111ms)
-		BeginReloadAssembly (618ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (239ms)
-		EndReloadAssembly (1340ms)
-			LoadAssemblies (162ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (603ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (398ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (243ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
-Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
-Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3432 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (180.2 KB). Loaded Objects now: 3973.
-Memory consumption went from 143.5 MB to 143.3 MB.
-Total: 5.247700 ms (FindLiveObjects: 0.303800 ms CreateObjectMapping: 0.246400 ms MarkObjects: 4.509700 ms  DeleteObjects: 0.186100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002802 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\RPG-Game\RPGGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\RPG-Game\RPGGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.579 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1580ms)
-		BeginReloadAssembly (181ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (1271ms)
-			LoadAssemblies (118ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (556ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (101ms)
-			SetupLoadedEditorAssemblies (395ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (263ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
-Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
-Refreshing native plugins compatible for Editor in 6.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3432 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (172.4 KB). Loaded Objects now: 3976.
-Memory consumption went from 143.5 MB to 143.3 MB.
-Total: 16.577400 ms (FindLiveObjects: 0.596600 ms CreateObjectMapping: 0.938900 ms MarkObjects: 14.521600 ms  DeleteObjects: 0.516500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002704 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\RPG-Game\RPGGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\RPG-Game\RPGGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.327 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2328ms)
-		BeginReloadAssembly (225ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1925ms)
-			LoadAssemblies (155ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (519ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (969ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (90ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (176ms)
-				ProcessInitializeOnLoadAttributes (626ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (29ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
-Shader Custom/UnlitShadow uses undefined Queue: 'Opaque'
-Refreshing native plugins compatible for Editor in 6.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3432 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (181.0 KB). Loaded Objects now: 3979.
-Memory consumption went from 143.5 MB to 143.3 MB.
-Total: 8.446100 ms (FindLiveObjects: 0.930300 ms CreateObjectMapping: 0.829500 ms MarkObjects: 6.430700 ms  DeleteObjects: 0.252400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 723.615931 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Base_Basecolor.png
-  artifactKey: Guid(29cf16dcfaae11f46bccf7ae069faa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Base_Basecolor.png using Guid(29cf16dcfaae11f46bccf7ae069faa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6ccc45377034ff844f9c1c0842fde7') in 0.125801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Shell_AO.png
-  artifactKey: Guid(fc3b5af5bc73abe4d8205b262790f62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Shell_AO.png using Guid(fc3b5af5bc73abe4d8205b262790f62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4cfd105c185a4ee8f20f0e5765315d') in 0.029908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Base_height.png
-  artifactKey: Guid(59f512951b3979d498aea3bb88d8806d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Base_height.png using Guid(59f512951b3979d498aea3bb88d8806d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38951b7b3733ab5c3246ee9bd371c5a8') in 0.022427 seconds 
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuho.png
+  artifactKey: Guid(e5600378dd761e64d9423790c482bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuho.png using Guid(e5600378dd761e64d9423790c482bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03dc683b569d11f8c6e5cbd3ac84bc10') in 0.023824 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Shell_Basecolor.png
-  artifactKey: Guid(922b2f4389cf30f46ad4dd56df061162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Shell_Basecolor.png using Guid(922b2f4389cf30f46ad4dd56df061162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fb92777f1149ab3d75bcf578888d55') in 0.021362 seconds 
+  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Cylinder.png
+  artifactKey: Guid(10b59816a62c39342bd420ba001aad43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Cylinder.png using Guid(10b59816a62c39342bd420ba001aad43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889f695baf61d46cb9bf59aff9037b76') in 0.013501 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/!Items/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Shell_height.png
-  artifactKey: Guid(2b0c96194bde5894daac68b584fbed55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/Cartoon_Texture_Pack/SAND/SAND_Underwater/Textures/Sand_Underwater_Shell_height.png using Guid(2b0c96194bde5894daac68b584fbed55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2a1a584064189bb56b9717d975d52c') in 0.020586 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Cursors/cutCursor-add.png
+  artifactKey: Guid(1b6d4baf0e317ea49b9fa6520067f80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Cursors/cutCursor-add.png using Guid(1b6d4baf0e317ea49b9fa6520067f80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83ce743e7ac0c446f97a56885b6383a') in 0.020706 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1956.948235 seconds.
-  path: Assets/!Items/FantasyEnvironments/Environments/Prefabs/Flower2.prefab
-  artifactKey: Guid(9c47d3ce2208e9440ab03e7fe3e32bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!Items/FantasyEnvironments/Environments/Prefabs/Flower2.prefab using Guid(9c47d3ce2208e9440ab03e7fe3e32bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c7c48b4b1e8aeee1dd35e4491ca8aa') in 0.173803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 559.304001 seconds.
-  path: Assets/MainPrefabs/Plant_05a.prefab
-  artifactKey: Guid(6b308a2cf4784674b84bff2819583aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainPrefabs/Plant_05a.prefab using Guid(6b308a2cf4784674b84bff2819583aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d10f81a9789321ff64e40997ff4420f') in 0.026793 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/CutTool_disabled.png
+  artifactKey: Guid(57f92aae46391dc48b04291f4ef8e465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/CutTool_disabled.png using Guid(57f92aae46391dc48b04291f4ef8e465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30d69dbe0e82b3a14cfa7b30fcc694a') in 0.012652 seconds 
