@@ -359,6 +359,7 @@
 "Assets/!Items/Turntable_platforms/GodRays/Scripts/ScrollBehaviour.cs"
 "Assets/Cartoon Heroes/Scripts/SetCharacter/SetCharacter.cs"
 "Assets/Medieval_house_lite/Fire/LightFlickerEffect.cs"
+"Assets/Scripts/PlayerMove.cs"
 -langversion:9.0
 
 /deterministic
