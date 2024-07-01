@@ -364,6 +364,7 @@
 "Assets/Scripts/Choose.cs"
 "Assets/Scripts/Cursors.cs"
 "Assets/Scripts/PlayerMove.cs"
+"Assets/Scripts/PlayerSpawn.cs"
 "Assets/Scripts/SaveScript.cs"
 -langversion:9.0
 
