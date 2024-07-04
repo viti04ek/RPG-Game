@@ -365,6 +365,7 @@
 "Assets/Scripts/CursorOver.cs"
 "Assets/Scripts/Cursors.cs"
 "Assets/Scripts/InventoryItems.cs"
+"Assets/Scripts/Pickups.cs"
 "Assets/Scripts/PlayerMove.cs"
 "Assets/Scripts/PlayerSpawn.cs"
 "Assets/Scripts/SaveScript.cs"
