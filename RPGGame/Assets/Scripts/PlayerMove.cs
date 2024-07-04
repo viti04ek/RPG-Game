@@ -7,6 +7,8 @@ using Cinemachine;
 
 public class PlayerMove : MonoBehaviour
 {
+    public static bool CanMove = true;
+    
     private Animator _anim;
     private NavMeshAgent _nav;
     private Ray _ray;
@@ -38,7 +40,7 @@ public class PlayerMove : MonoBehaviour
 
     private void GetTouchToMove()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && CanMove)
         {
             _ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(_ray, out _hit))
