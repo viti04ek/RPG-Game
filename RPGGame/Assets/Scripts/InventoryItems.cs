@@ -18,10 +18,16 @@ public class InventoryItems : MonoBehaviour
     public static bool IconUpdate = false;
     private int max;
 
+    public static int RedMushrooms = 0;
+    public static int BlueFlowers = 0;
+
     private void Start()
     {
         CloseMenu();
         max = _emptySlots.Length;
+
+        RedMushrooms = 0;
+        BlueFlowers = 0;
     }
 
     private void Update()
@@ -58,7 +64,7 @@ public class InventoryItems : MonoBehaviour
 
     private IEnumerator Reset()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.1f);
         IconUpdate = false;
         max = _emptySlots.Length;
     }
